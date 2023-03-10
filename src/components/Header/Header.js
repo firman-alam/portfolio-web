@@ -55,9 +55,6 @@ const Header = () => (
       <SocialIcons href='https://www.goodreads.com/firmann_alam'>
         <FaGoodreads size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://twitter.com/firmann_alam'>
-        <FaTwitter size='3rem' />
-      </SocialIcons>
     </Div3>
   </Container>
 );
