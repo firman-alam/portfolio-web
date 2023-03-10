@@ -38,7 +38,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            NodeJS and ExpressJS
+            Golang, NodeJS and ExpressJS
           </ListParagraph>
         </ListContainer>
       </ListItem>

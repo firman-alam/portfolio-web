@@ -19,7 +19,8 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
           I'm learning web development especially using Javascripts, ReactJs,
-          NodeJs, etc. Go check out my projets below...
+          NodeJs, and Golang(I'm excited about it). Go check out my projets
+          below...
         </SectionText>
         <Link href='#projects'>
           <Button>Learn More</Button>

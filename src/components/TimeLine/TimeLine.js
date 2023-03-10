@@ -68,9 +68,11 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Hi... my name is Al Adiat Firman A., people often call me Firman. I'm a
-        college student with a major in Computer Science. Interested in web
-        development especially using Javascripts cause it's one for all. You can
-        make front-end and back-end with it. What amazing stuff, right, eh?
+        final-year college student with a major in Computer Science. Interested
+        in web development especially using Javascripts cause it's one for all.
+        You can make front-end and back-end with it. What amazing stuff, right,
+        eh? Update: I learning Golang now for backend development. Hope I'm not
+        losing my mind :D
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
