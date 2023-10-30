@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { FaSpotify, FaGoodreads, FaTwitter } from 'react-icons/fa';
-import { DiCssdeck } from 'react-icons/di';
+import Link from 'next/link'
+import React from 'react'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
+import { FaSpotify, FaGoodreads, FaTwitter } from 'react-icons/fa'
+import { DiCssdeck } from 'react-icons/di'
 
 import {
   Container,
@@ -11,7 +11,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-} from './HeaderStyles';
+} from './HeaderStyles'
 
 const Header = () => (
   <Container>
@@ -43,20 +43,14 @@ const Header = () => (
       <SocialIcons href='https://github.com/firman-alam'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com/in/al-adiat-firman-alamsyah-279222217/'>
-        <AiFillLinkedin size='3rem' />
-      </SocialIcons>
       <SocialIcons href='https://www.instagram.com/firmann.alam/'>
         <AiFillInstagram size='3rem' />
       </SocialIcons>
       <SocialIcons href='https://open.spotify.com/user/21ukddgo4xikipsvkoxkvktja?si=bfa5X1_xQaiMLE6yg67IRQ'>
         <FaSpotify size='2.6rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.goodreads.com/firmann_alam'>
-        <FaGoodreads size='3rem' />
-      </SocialIcons>
     </Div3>
   </Container>
-);
+)
 
-export default Header;
+export default Header
