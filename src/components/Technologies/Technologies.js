@@ -1,25 +1,25 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import React from 'react'
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di'
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from '../../styles/GlobalComponents';
+} from '../../styles/GlobalComponents'
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
   ListTitle,
-} from './TechnologiesStyles';
+} from './TechnologiesStyles'
 
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I'm still learning web development, with a range of technologies{' '}
+      I'm learning web development, with a range of technologies{' '}
     </SectionText>
     <List>
       <ListItem>
@@ -28,7 +28,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            ReactJS, NextJS, Typescript
+            NextJS, VueJS, Typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,7 +38,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Golang, NodeJS and ExpressJS
+            Golang, NodeJS and Django
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -48,13 +48,14 @@ const Technologies = () => (
           <ListTitle>Other Tech</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Firebase, MongoDB, MySQL, Redux
+            Postgre SQL, Firebase, MongoDB, MySQL, Redux, Websocket, Google
+            Cloud
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
     <SectionDivider colorAlt />
   </Section>
-);
+)
 
-export default Technologies;
+export default Technologies

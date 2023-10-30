@@ -1,13 +1,13 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from 'next/link'
+import React from 'react'
 
 import {
   Section,
   SectionText,
   SectionTitle,
-} from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+} from '../../styles/GlobalComponents'
+import Button from '../../styles/GlobalComponents/Button'
+import { LeftSection } from './HeroStyles'
 
 const Hero = (props) => (
   <>
@@ -18,9 +18,8 @@ const Hero = (props) => (
           This Is My Personal Web Portfolio
         </SectionTitle>
         <SectionText>
-          I'm learning web development especially using Javascripts, ReactJs,
-          NodeJs, and Golang(I'm excited about it). Go check out my projets
-          below...
+          I'm a Full-stack Developer who using NextJs and Golang for the tech
+          stack. Go check out my projects below...
         </SectionText>
         <Link href='#projects'>
           <Button>Learn More</Button>
@@ -28,6 +27,6 @@ const Hero = (props) => (
       </LeftSection>
     </Section>
   </>
-);
+)
 
-export default Hero;
+export default Hero
