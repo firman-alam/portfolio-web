@@ -25,8 +25,7 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      [archived now hehe, will be out soon]
-      {/* {projects.map((p, i) => {
+      {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
             <Img src={p.image} />
@@ -39,7 +38,7 @@ const Projects = () => (
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
+                  return <Tag key={i}>{t}</Tag>
                 })}
               </TagList>
             </div>
@@ -48,8 +47,8 @@ const Projects = () => (
               <ExternalLinks href={p.source}>Source</ExternalLinks>
             </UtilityList>
           </BlogCard>
-        );
-      })} */}
+        )
+      })}
     </GridContainer>
   </Section>
 )
