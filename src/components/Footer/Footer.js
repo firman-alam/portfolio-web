@@ -1,7 +1,7 @@
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { FaSpotify, FaGoodreads, FaTwitter } from 'react-icons/fa';
-import { SocialIcons } from '../Header/HeaderStyles';
+import React from 'react'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
+import { FaSpotify, FaGoodreads, FaTwitter } from 'react-icons/fa'
+import { SocialIcons } from '../Header/HeaderStyles'
 import {
   CompanyContainer,
   FooterWrapper,
@@ -12,7 +12,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from './FooterStyles';
+} from './FooterStyles'
 
 const Footer = () => {
   return (
@@ -42,16 +42,18 @@ const Footer = () => {
           <SocialIcons href='https://open.spotify.com/user/21ukddgo4xikipsvkoxkvktja?si=bfa5X1_xQaiMLE6yg67IRQ&utm_source=whatsapp'>
             <FaSpotify size='2.6rem' />
           </SocialIcons>
+          {/*           
           <SocialIcons href='https://www.goodreads.com/firmann_alam'>
             <FaGoodreads size='3rem' />
           </SocialIcons>
           <SocialIcons href='https://twitter.com/firmann_alam'>
             <FaTwitter size='3rem' />
           </SocialIcons>
+          */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
