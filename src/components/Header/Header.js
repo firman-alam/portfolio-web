@@ -46,9 +46,9 @@ const Header = () => (
       <SocialIcons href='https://www.instagram.com/firmann.alam/'>
         <AiFillInstagram size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://open.spotify.com/user/21ukddgo4xikipsvkoxkvktja?si=bfa5X1_xQaiMLE6yg67IRQ'>
+      {/* <SocialIcons href='https://open.spotify.com/user/21ukddgo4xikipsvkoxkvktja?si=bfa5X1_xQaiMLE6yg67IRQ'>
         <FaSpotify size='2.6rem' />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 )
